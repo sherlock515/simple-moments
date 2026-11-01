@@ -1,0 +1,4 @@
+interface:
+  display_name: "Simple Moments · 一键发朋友圈"
+  short_description: "说一句用哪天的照片发朋友圈，自动挑片修图，连有意思的文案一起准备好"
+  default_prompt: "$simple-moments 用昨天的照片发个朋友圈。"

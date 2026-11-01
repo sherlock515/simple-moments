@@ -1,0 +1,55 @@
+{
+  "method": "Built-in image_gen tool, referenced-image editing",
+  "source": "用户授权使用的既有风景照；未使用人像照",
+  "date_basis": "既有设备导入索引，EXIF 日期异常，未独立核验拍摄日期",
+  "note": "本次为已导入照片的选片、AI 修图与文案示例，不代表重新完成数据线读取。生成式编辑会重绘部分细节，原图同时提供供核对。",
+  "files": [
+    {
+      "key": "lake",
+      "title": "湖边发呆",
+      "source": "IMG_1362.JPG",
+      "result": "exec-b7ad03c7-e612-4c24-9e33-3c72f0520485.png",
+      "caption": "这张适合发呆，不适合配长文。",
+      "change": "提亮湖面与柳树，改善偏灰的色调",
+      "before": "examples/before/01-lake.jpg",
+      "after": "examples/after/01-lake.png",
+      "source_sha256": "639a9250644e90803bddd4d5338c7df39273a89ef074e669c548c10505313b4a",
+      "after_sha256": "4a3425a168106057685bc0aea14777834f90902c01a1000a7ec574a5e38452ff",
+      "archive_date": "2026-09-25 16:36:33",
+      "prompt": "Edit this exact landscape photo for a tasteful WeChat Moments post. Natural photographic color grading only. Lift the dull blue-grey exposure by about 0.4 stop, reduce cyan cast, make willow greens fresh yet restrained, add gentle local contrast to the mountain and water ripples. Preserve the original cloudy sky and its shapes, all boats, mountain skyline, distant white stadium and buildings, willow branches, and original framing and aspect ratio. Do not invent sunset or blue sky, do not add/remove objects, do not sharpen into a painting. Clean premium travel photography, subtle but visibly brighter and clearer. No text, watermark, border, collage, or people added. Output a single edited photograph."
+    },
+    {
+      "key": "roof",
+      "title": "抬头看看",
+      "source": "IMG_1309.JPG",
+      "result": "exec-f887cb71-bb53-499f-9e31-f549973d2521.png",
+      "caption": "屋顶负责好看，我负责抬头。",
+      "change": "减轻偏色，让瓦片和绿叶更有层次",
+      "before": "examples/before/02-roof.jpg",
+      "after": "examples/after/02-roof.png",
+      "source_sha256": "e56a11f7c76dc54eeaa52dfe214c7128dbc76ce973d6537e405d398502b7f94b",
+      "after_sha256": "20d1802451f19676dfc15d002e88546fd23a6aaeecc6a93e9bd862e4d79f3c59",
+      "archive_date": "2026-09-25 15:40:34",
+      "prompt": "Perform an extremely conservative color correction of this exact photograph, NOT a reconstruction. The Chinese gold inscription on the roof must remain IDENTICAL to the reference original pixel shapes: left-to-right 平 和 界 世 (read right-to-left 世界和平). Do not rewrite, hallucinate, reinterpret or alter any gold stroke. Keep the original roof geometry, carvings, all tile shapes, existing clouds, buildings, all bamboo branches and leaves absolutely unchanged. Only neutralize faint magenta haze and mildly improve overall contrast, with slightly fresher natural green. The sky should remain pale and softly hazy exactly like the original, do not add new cloud texture or a more dramatic sky. Preserve original 4:3 aspect and camera framing. One edited photograph, no text overlay, no border."
+    },
+    {
+      "key": "pond",
+      "title": "路过锦鲤",
+      "source": "IMG_1299.JPG",
+      "result": "exec-149abb38-af41-4cbf-b7c3-ca6574d2fce3.png",
+      "caption": "锦鲤负责游，我负责沾点光。",
+      "change": "收住叶片高光，突出锦鲤与水面色彩",
+      "before": "examples/before/03-pond.jpg",
+      "after": "examples/after/03-pond.png",
+      "source_sha256": "51e9a3bed0fe3e849a812d191a3b230451ce022286c8b3c71f1417c57a66fdbb",
+      "after_sha256": "fceafdb718e457a308bfd4ad2c476957a319c4e31dc9915a64ab2c7f77c4f2b1",
+      "archive_date": "2026-09-25 15:38:46",
+      "prompt": "Edit this exact photograph of a small koi pond for a natural WeChat Moments travel photo. Apply refined photographic tone and color correction only: gently reduce harsh leaf highlights, balance vivid greens to a natural deeper green, clarify the existing orange koi fish modestly, retain water reflections and ripples and rock texture. Keep original 4:3 framing and all existing fish in exactly their positions with original shapes; preserve all plants, bowl, coins, turtle sculptures and water reflections. Do not remove or add anything, do not turn the murky water into a transparent aquarium, do not invent objects or people. The result should be appealing, calm and natural without crunchy HDR. Single edited photograph, no captions, borders or collage."
+    }
+  ],
+  "observed_changes": {
+    "lake": "明暗、绿叶颜色以及云层和水纹细节发生变化，非仅调色。",
+    "roof": "重新生成后核对屋脊文字；对比图保留原图便于检查。",
+    "pond": "颜色、对比度以及水面细节发生变化。"
+  }
+}
